@@ -1,0 +1,288 @@
+*{
+ padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #009688,
+        #009688 20%,
+        #d4dbd9 20% 100%
+    );
+    padding: 4vh;
+}
+main{
+    background-color:#e7dfdc;
+    margin: 0 auto;
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.oneside{
+    width: 76.8rem;
+    background-color: #eeeeed;
+    height: 4.5rem;
+    
+
+}
+.taskbar{
+    width: 27rem;
+    height: 100%;
+    background-color: #fefefe;
+
+ 
+}
+.up{
+width: 27rem;
+background-color: #eeeeed;
+height: 4.5rem;
+}
+.down{
+    width: 27rem;   
+    background-color: #e9eaec;
+    height: 4.5rem;
+    padding: 15px ;
+ 
+}
+
+
+.insidedown{
+    width: 25rem;
+    height: 2.5rem;
+    background-color: #fefefe;
+    border-radius: 7px;
+   padding-bottom: 2rem;
+   display: flex;
+
+}
+
+
+h4{
+font-style: normal;
+margin-left: 2.5rem;
+padding: 13px;
+font-weight: 500;
+
+
+
+}
+
+.profilepic{
+    height: 50px;
+    border-radius: 40rem;
+margin-top: 14px;
+margin-left: 1rem;
+}
+.search{
+height: 40px;
+border-radius: 60px;
+
+}
+.down2{
+    width: 27rem;
+background-color: #fffbfb;
+height: 4.5rem;
+display: flex;
+}
+.unknown{
+    height: 40px;
+border-radius: 60px;
+margin-top: 1rem;
+margin-left: 1rem;
+
+}
+h3{
+    margin-right: 20px;
+margin-top:  5px;
+
+line-height: 29px;
+}
+.tick {
+margin-top: 2.6rem;
+margin-left: 14px;
+
+}
+span{
+font-weight: 200;
+font-size: large;
+margin-left: 3px;
+
+
+}
+h1{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+
+}
+.down3{
+    width: 27rem;
+    background-color: #faecec;
+    height: 4.5rem;
+    display: flex;
+
+}
+.down4{
+    width: 27rem;
+    background-color: #faf6f6;
+    height: 4.5rem;
+    display: flex;
+
+}
+.down5{
+    width: 27rem;
+    background-color: #f3f1f1;
+    height: 4.5rem;
+    display: flex;
+}
+
+h2{
+    padding: 1rem;
+    font-size: 20px;
+}
+.upright{
+    display: flex;
+    height: 4.5rem;
+}
+
+
+.box1{
+    width: 10rem;
+    height: 2rem;
+    background-color: #e9fbff;
+    border-radius: 5px;
+    margin-top: 23rem;
+}
+h5{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+h6{
+    padding: 10px;
+    margin-left: 15px;
+}
+.box2{
+    width: 10rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2.5px;
+}
+
+
+.time{
+    font-size: 14px;
+    margin-left: 7rem;
+}
+.box3{
+    width: 10rem;
+    height: 3rem;
+    background-color: #dcf6c7;
+    border-radius: 8px;
+    padding: 2.5px;
+   
+}
+.box4{
+    width: 10rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2.5px;
+}
+.box5{
+    width: 10rem;
+    height: 4rem;
+    background-color: #dcf6c7;
+    border-radius: 8px;
+    padding: 2.5px;
+}
+.box6{
+    width: 10rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2.5px;
+}
+.down-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16rem;
+    margin-bottom: 2rem;
+}
+.down-b{
+    margin-left: 4rem;
+    margin-top: 10px;
+}
+.down-c{
+    margin-left: 40rem;
+}
+.down-d{
+    margin-left: 4rem;
+    margin-top: 10px;
+}
+.down-e{
+    margin-left: 40rem;
+}
+.down-f{
+    margin-left: 4rem;
+    margin-top: 10px;
+}
+.tick1{
+    margin-left: 8.5rem;
+    margin-bottom: 2rem;
+    color: #83d7e4;
+}
+
+.time2{
+    font-size: 14px;
+    margin-left: 6rem;
+}
+.down-g{
+    width: 76.6rem;
+    background-color: #eeeeed;
+    height: 4rem;
+margin-top: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finish{
+    width:60rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 8px;
+
+}
+.micro{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+.smile{
+    font-size: 1.5rem;
+    margin-right: 5rem;
+
+}
+.book{
+    margin-left: 16rem;
+padding: 1rem;
+}
+.dot{
+    padding: 1rem;
+  
+}
+.string{
+    margin-left: 55rem;
+    padding: 1rem;
+font-size: 1.5rem;
+}
+.dot1{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
